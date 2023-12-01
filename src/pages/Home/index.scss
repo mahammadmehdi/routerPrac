@@ -1,0 +1,28 @@
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    .ApiList{
+        border: 3px solid black;
+        width: 300px;
+        min-height: 400px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .category{
+            background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 50px;
+        }
+        .picture{
+            width: 200px;
+    height: 200px;
+        }
+    }
+}

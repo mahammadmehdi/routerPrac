@@ -1,0 +1,27 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+.ApiList{
+    border: 3px solid black;
+    width: 300px;
+    min-height: 400px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .category{
+        background-color: blue;
+color: white;
+padding: 10px;
+width: 150px;
+text-align: center;
+margin-left: 50px;
+    }
+    .picture{
+        width: 200px;
+height: 200px;
+    }
+}
+}
